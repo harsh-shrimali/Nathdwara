@@ -1,0 +1,239 @@
+header{
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px; 
+}
+a{
+	width: 150px;
+	padding: 0;
+	margin: 7px;
+	text-decoration: none !important;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 22px;
+	border-radius: 2px;
+}
+#navbar{
+	width: 94%;
+}
+.navgroup{
+	float: right;
+	margin: -19px;
+}
+
+body{
+	height: 100%;	
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+.loverajsamand{
+	position: absolute;
+	padding-top: 10%;
+	padding-left: 61%;
+	font-size: 72px;
+	font-weight: bold;
+	color: rgb(248, 66, 0);
+
+}
+
+/*Below are the Css for details tag and Informations given in the page*/
+
+#place:p{
+	color: black;
+	font-style: bold ;
+}
+#item{
+	width: auto;
+}
+#button-slider:hover{
+		background-color: grey;
+
+}
+details{
+		text-align: left;
+		width: auto; 
+		margin-left: 0%;
+		font-size: 100%;
+}
+#places{
+	font-size: 100%;
+	font-family: sans-serif ;
+	color: #ffffff;
+
+}
+.summary{
+	font-size: 50px;
+	text-align: left;
+	color: hotpink;
+}
+.summary1{
+	font-size: 50px;
+	text-align: center;
+	background-color: grey;
+}
+summary::-webkit-details-marker {
+	display: none; /* Chrome */
+	text-align: left;
+  }
+summary{
+text-align: left;
+	list-style-type: none;
+}
+#subPlaces{
+	justify-content: center;
+	margin-left: 5%;
+	text-align: left;
+	
+}
+#history:hover {
+	cursor: pointer;
+	color: rgb(255, 255, 255)	;
+
+}
+#history{
+	font-size: 100%;
+	font-family: sans-serif;
+	color: #717171;
+}
+p{
+	color: black;
+	font-size: 125%;	
+}
+.Gallary, .LoginForm{
+	color: white;
+	background-color: gray;
+	border-radius: 0.5; 
+}
+
+
+
+
+/*newww */
+
+.container-fluid{
+	padding: 0 !important;
+	width: auto !important;
+}
+.grid-col{
+	border: 2px solid gray;
+	border-radius: 2px;
+	width:350px;
+	height:350px;
+	
+
+}
+.grid-col:hover
+{
+	border: 4px solid rgba(68, 0, 255, 0.932) ;
+	border-radius: 2px ;
+	filter: grayscale(100%);
+}
+#grid
+{
+	width: auto;
+	margin-top: 5%;
+	margin-left: 8%;
+	padding-top: 0;
+	margin-top: 0;
+}
+.social_link{
+	padding-left: 100px;
+	margin: 0;
+	display: inline;
+  } 
+  
+ul.social_link li{
+	display: inline ;
+  }
+.row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+#footer{
+	background-color: rgb(216, 207, 207);
+}
+.grid-heading1{
+	padding-left: 123px;
+}
+.grid-heading2{
+	padding-left: 104px;
+}
+.grid-heading3{
+	padding-left: 138px;
+}
+.grid-heading4{
+	padding-left: 130px;
+}
+#header-contact{
+	padding-top: 15px;
+	padding-left: 82px;
+	margin: 0;
+	font-size: 15px;
+}
+.list-nav{
+	list-style-type: none;
+	display: flex;
+}
+.sublist-nav{
+	list-style-type: none;
+}
+#nav-style{
+	padding-top: 6%;
+	padding-right: 15%;
+}
+.novhor{
+	margin: 0;
+	margin-bottom: 5px;
+
+}
+#subdropdown{
+	text-align: left;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#subdropdown1{
+	margin-top: 0;
+	text-align: left;
+}
+.guide {
+    padding-top: 0%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 66px;
+    color: rgb(177 40 6);
+    font-family: serif;
+}
+.kumb-text {
+    font-family: serif;
+    text-align: center;
+    width: 100%;
+    height: 143px;
+    background-color: #3a3737;
+    position: absolute;
+    font-size: 79px;
+    color: #ffffff;
+    margin-top: 26%;
+    margin-left: 0;
+}
+
+
+
+/*hotel*/
+
+.atithi{
+	font-size: 60px;
+	text-align: center;
+}
+#table{
+	text-align: center;
+	width: 50%;
+	height: 160px;
+}
+
+
+
+
+

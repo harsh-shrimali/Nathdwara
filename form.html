@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<style >
+		p{
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<form action="connect.php" method="POST">
+		<div class="Information">
+			<h1>Feedback</h1>
+			<p>Please provide your valuable feedback :)</p>
+			<br>
+			<div class="textbox">
+				<input class="FN" type="textbox" placeholder="FirstName" name="firstName"  required>
+				<input class="LN" type="textbox" placeholder="LastName" name="lastName" required>
+				<!-- <p>Select your country code</p>
+				<select class="code" name="phonecode" >
+					<option value="+91">+91</option>
+					<option value="93">93</option>
+					<option value="355">355</option>
+					<option value="213">213</option>
+					<option value="1-684">1-684</option> -->
+
+				</select>
+				<input class="Mobno" type="integer" placeholder="Mobno" name="mobileno" required>
+				<p>Gender</p>
+				<input class="radio" type="radio" name="gender" value="m" required>
+				<label>Male</label>
+				<input class="radio" type="radio" name="gender" value="f" required>
+				<label>Female</label>
+				<input class="radio" type="radio" name="gender" value="o" required>
+				<label>Other</label>
+				<input class="email" type="email" placeholder="Email" name="email" required>
+				<input class="address" type="address" placeholder="Postal-Address" name="address" required>
+				<input class="feedback" type="text" placeholder=" Enter Your Feedback Please" name="feedback" required>
+
+			</div>			
+		
+		<button class="btn" type="submit" name="submit" value="Submit">Submit</button>		
+	</div>
+	</form>
+
+</body>
+</html>

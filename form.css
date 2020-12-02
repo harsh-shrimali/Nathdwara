@@ -1,0 +1,89 @@
+body{
+	background-image: url(img/vishvasa-swaroopam.jpg) ;
+	height: 100%;
+	background-position: center;
+	background-size: 100%;
+	position: relative;
+}
+p{
+	font-size: 25px;
+	color: black;
+	font-style: bold;
+	margin: 1px;
+}
+.Information{
+	margin: 5%;
+	padding: 7%;
+	color: #73483f;
+}
+.Information h1{
+	font-size: 50px;
+	margin-bottom: 30px;
+
+}
+.FN{
+	overflow: hidden;
+	width: 20%;
+	font-size: 20px;
+	padding: 8px, 0;
+	margin: 0px;
+	display: block;
+	margin-bottom: 6px;
+}
+.LN{
+	overflow: hidden;
+	width: 20%;
+	font-size: 20px;
+	padding: 2px;
+	margin: 0px;
+	margin-bottom: 6px;
+	display: block;
+} 
+.Mobno{
+	overflow: hidden;
+	margin-bottom: 6px;
+	width: 20%;
+	font-size: 20px;
+	padding: 2px;
+	margin: 0px;
+	display: inline-block;	
+}
+.code{
+	display: inline-block;
+	width: auto;
+	font-size: 20PX;
+	margin-bottom: 6px;
+	padding: 2px;	
+}
+.feedback{
+	width: 45%;
+	height: 10%;
+	padding: 10px;
+	margin-bottom: 6px;
+}
+.email{
+	overflow: hidden;
+	width: 20%;
+	margin-bottom: 6px;
+	font-size: 20px;
+	padding: 2px;
+	display: block;	
+}
+.address{
+	overflow: hidden;
+	margin-bottom: 6px;
+	width: 20%;
+	font-size: 20px;
+	padding: 2px;
+	display: block;	
+}
+.btn{
+	padding: 10px;
+	border: none;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color:  #3e8e41;
+	transition: 0.3s;
+
+}
